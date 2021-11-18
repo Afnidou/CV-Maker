@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family:'Roboto','Poppins', sans-serif;
+}
+.walo h1{
+    font-size: 40px;
+    letter-spacing: 1px;
+}
+.walo h1,
+.walo h3
+{
+    text-align: center;
+    margin-bottom:40px;
+    color: #fff;
+}
+.contactForm{
+    width: 40%;
+    padding: 40px;
+    background-color: rgb(255, 255, 255);
+    transform: translateX(470px);
+    border-radius: 6px;
+    box-shadow: 1px 1px 10px rgba(0,0,0,.3);
+}
+.contactForm h2{
+    font-size: 30px;
+    color: #333;
+    font-weight: 500;
+}
+.contactForm .inputBox{
+    position: relative;
+    width: 100%;
+    margin-top: 10px;
+}
+.contactForm .inputBox input ,.contactForm .inputBox textarea
+{
+    width: 100%;
+    padding: 5px 0;
+    font-size: 16px;
+    margin: 10px 0;
+    border: none;
+    border-bottom: 2px solid #333;
+    outline: none;
+    resize: none;
+}
+.contactForm .inputBox span{
+    position: absolute;
+    left: 0;
+    padding: 5px 0;
+    font-size: 16px;
+    margin: 10px 0;
+    pointer-events: none;
+    transition: 0.5;
+    color: #666;
+    transition: all 0.5s ease;
+}
+.contactForm .inputBox input:focus ~ span,
+.contactForm .inputBox input:valid ~ span,
+.contactForm .inputBox textarea:focus ~ span,
+.contactForm .inputBox textarea:valid ~ span
+{
+    color: #e91e63;
+    font-soze: 12px;
+    transform: translateY(-20px);
+}
+.contactForm .inputBox input[type="submit"]
+{
+    width: 100px;
+    background: #00bcd4;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    font-size: 18px;
+}
+.logo{
+    opacity: 0.9;
+    margin: 0;
+    padding: 20px;
+    color: rgb(255, 255, 255);
+    letter-spacing: 3px;
+    font-size: 25px;
+}
+#heading__bg1 {
+    position: absolute;
+    z-index: -99;
+    top: -80px;
+    left: 0;
+    width: 100%;
+    height: 420px;
+    background: #FFDF00;
+    -webkit-transform: skewY(-6deg);
+    transform: skewY(-6deg);
+}

@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+body{
+    min-height: 100vh;
+}
+.heading__bg {
+    position: absolute;
+    z-index: -99;
+    top: -80px;
+    left: 0;
+    width: 100%;
+    height: 420px;
+    background: #FFDF00;
+    -webkit-transform: skewY(-6deg);
+    transform: skewY(-6deg);
+}
+.title{
+    position: relative;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 40px;
+    letter-spacing: 1px;
+    color: rgb(255, 255, 255);
+}
+
+.logo{
+    opacity: 0.9;
+    margin: 0;
+    padding: 20px;
+    color: rgb(255, 255, 255);
+    letter-spacing: 3px;
+    font-size: 25px;
+}
+
+section{
+    width: 23cm !important;
+    min-height: 100vh;
+    margin: 40px auto;
+    background: rgb(255, 255, 255);
+    border-radius: 7px;
+    box-shadow: 0 0 20px rgba(0,0,0,.1);
+}
+.img{
+    width: 140px;
+    height: 150px;
+    float: left;
+    margin: 10px;
+    border-radius: 5px;
+    background: rgb(187, 187, 187);
+    cursor: pointer;
+}
+form{
+    padding: 30px;
+}
+.Form .inputBox input 
+{ 
+    max-width: 100%;
+    margin: 5px 0;
+    padding: 8px 0;
+    font-size: 16px;
+    border: 2px solid #eaeaea;
+    border-radius: 5px;
+    outline: none;
+    resize: none;
+}
+.Form .inputBox span{
+    margin: 5px;
+}
+.nom{
+    display: flex !important;
+    flex-direction: column !important;
+}
+.nom1{
+    display: flex;
+    align-content: center;
+    margin-top: 20px;
+}
+#next-btn{
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 15px 60px;
+    font-size: 18px;
+    font-weight: bold;
+    list-style: none;
+    border-radius: 40px;
+    margin-bottom: 40px;
+    text-align: center;
+    background-color: #FFDF00;
+}
+#save-btn{
+    padding: 0px 60px;
+    background-color:  #FFDF00;
+    border: none;
+}
+a{
+    color: rgb(255, 255, 255);
+}
+.inputBox .name .nom input:focus ~ span {
+    color: red;
+}
