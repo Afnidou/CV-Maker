@@ -14,4 +14,4 @@ Une fois que votre CV est terminé, il est possible de le télécharger au forma
 
 Une fois le document transféré, vous avez toujours accès à votre espace personnel. Vous pouvez donc modifier votre CV et son contenu, puis le récupérer à nouveau, ceci sans limite.
 
-Si vous rencontrez des erreurs d’affichage sur le fichierus proposons une liste d’exemple de CV design et originaux pour faire de votre curriculum vitae un atout pour votre recherche d’emploi PDF, notre service support vous apportera de l’aide. Pour cela, utilisez le formulaire de contact.
+Si vous rencontrez des erreurs d’affichage sur le fichier , nous proposons une liste d’exemple de CV design et originaux pour faire de votre curriculum vitae un atout pour votre recherche d’emploi PDF, notre service support vous apportera de l’aide. Pour cela, utilisez le formulaire de contact.
