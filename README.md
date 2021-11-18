@@ -1,7 +1,7 @@
 # cv-en-ligne
 C'est un créateur de CV en ligne en meme pas 5 minutes !
 
-# les étapes à suivre pour la réalisation d'un Curriculum Vitae:
+# les étapes à suivre :
 
 Pour commencer dans la création de votre CV, vous devrez introduire vos informations personnelles avant d'entamer la rédaction du contenu de votre CV.
 
